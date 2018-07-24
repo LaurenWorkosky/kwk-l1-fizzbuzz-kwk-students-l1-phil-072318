@@ -20,7 +20,7 @@ if final_number == 0 && finalnumber == 0
 elsif final_number == 0 && finalnumber != 0
   puts "Fizz"
   
-else
+elsif final_number != 0 && finalnumber == 0
   puts "Buzz"
   
 end
