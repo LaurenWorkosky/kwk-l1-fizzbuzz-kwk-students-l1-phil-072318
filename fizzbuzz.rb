@@ -11,7 +11,7 @@ puts "#{final_number}"
 dividednumber = number/5
 roundednumber = dividednumber.to_i
 finalnumber = roundednumber - dividednumber
-puts "#{finalnumber}"
+
 
 if final_number == 0 && finalnumber == 0
   puts "FizzBuzz"
