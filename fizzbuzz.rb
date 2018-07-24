@@ -1,5 +1,4 @@
-puts "choose a number"
-number = gets.chomp.to_f
+def fizzbuzz(number)
 
 divided_number = (number/3).to_f
 
@@ -24,5 +23,5 @@ elsif final_number != 0 && finalnumber == 0
   puts "Buzz"
   
 end
-  
+end 
   
