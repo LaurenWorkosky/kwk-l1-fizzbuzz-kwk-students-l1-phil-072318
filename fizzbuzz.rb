@@ -1,27 +1,13 @@
 def fizzbuzz(number)
 
-divided_number = (number/3).to_f
-
-rounded_number = divided_number.to_i
-
-final_number = rounded_number - divided_number
-
-
-dividednumber = number/5
-roundednumber = dividednumber.to_i
-finalnumber = roundednumber - dividednumber
-
-
-if final_number == 0 && finalnumber == 0
-  puts "FizzBuzz"
-
+  if number %15 == 0
+    return "FizzBuzz"
   
-elsif final_number == 0 && finalnumber != 0
-  puts "Fizz"
+  elsif number %3 == 0
+    return "Fizz"
   
-elsif final_number != 0 && finalnumber == 0
-  puts "Buzz"
-  
-end
+  elsif number %5 == 0
+    return "Buzz"
+  end 
 end 
   
